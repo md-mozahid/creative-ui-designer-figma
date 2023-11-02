@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1440px;
+  background: #222831;
+}
+
+.navbar {
+  display: flex;
+  padding: 48px 96px;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.nav ul {
+    display: flex; justify-content: center; align-items: center; gap: 48px;
+}
